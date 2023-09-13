@@ -1,0 +1,123 @@
+// Header styles
+
+.headerContainer {
+    margin-bottom: 5px;
+
+    padding: 0 5px
+}
+
+.headerContent {
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    border: 2px solid #000000;
+}
+
+.headerText {
+    margin: 0;
+
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+// Navigation styles
+
+.navigation {
+    padding: 10px;
+
+    border: 2px solid #000000;
+}
+
+.navigationText {
+    margin: 0;
+
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+// Main section styles
+
+.mainSection {
+    height: 500px;
+
+    padding: 10px 0;
+}
+
+.mainContainer {
+    height: 100%;
+
+    display: flex;
+
+    padding-top: 10;
+    padding-bottom: 3px;
+}
+
+.mainContent {
+    flex-grow: 1;
+
+    padding-top: 150px;
+    padding-left: 100px;
+
+    margin-right: 10px;
+
+    text-align: left;
+
+    border: 2px solid #000000;
+}
+
+.mainHeading {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+// Sidebar styles
+
+.sidebarWrapper {
+    padding: 5px 0;
+}
+
+.sidebar {
+    width: 250px;
+    height: 100%;
+
+    padding-top: 150px;
+
+    text-align: center;
+
+    border: 2px solid #000000;
+}
+
+.sidebarContainer {
+    padding: 5px;
+}
+
+.sidebarText {
+    margin: 0;
+
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+// Footer styles
+
+.footer {
+    padding: 0 5px;
+}
+
+.footerContainer {
+    padding: 10px 0;
+
+    border: 2px solid #000000;
+}
+
+.footerText {
+    margin: 0;
+
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.container {
+    padding-right: 80px;
+    text-align: center;
+}

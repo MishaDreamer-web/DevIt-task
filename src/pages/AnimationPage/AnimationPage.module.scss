@@ -1,0 +1,51 @@
+.wrapper{
+    margin: 0;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.animatedBox{
+    position: absolute;
+
+    width: 250px;
+    height: 250px;
+
+    border: 2px solid black;
+
+    animation-name: changeBgColor,spin;
+    animation-duration: 9s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+
+
+@keyframes changeBgColor {
+    0% {
+        background-color: red;
+    }
+
+    25% {
+        background-color: orange;
+    }
+
+    75% {
+        background-color: green;
+    }
+
+    100% {
+        background-color: red;
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
