@@ -2,6 +2,8 @@
 
 [🔙 Повернутися до головної сторінки](README.md)
 
+- Проект на базі Node v16.14.0
+
 This project was bootstrapped with
 [Create React App](https://github.com/facebook/create-react-app).
 
